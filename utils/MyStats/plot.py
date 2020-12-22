@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as mpl
-matplotlib.use('TkAgg') #Make matplotlib compatible with Big Sur on mac
+#matplotlib.use('TkAgg') #Make matplotlib compatible with Big Sur on mac
 import seaborn as sb
 
 #Avoids making same comparisons
