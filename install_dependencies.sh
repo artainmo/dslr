@@ -1,4 +1,4 @@
-pip install pandas
-pip install matplotlib
-pip install numpy
-pip install seaborn
+pip3 install pandas
+pip3 install matplotlib
+pip3 install numpy
+pip3 install seaborn
