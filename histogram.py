@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as mpl
-#matplotlib.use('TkAgg') #Make matplotlib compatible with Big Sur on mac
+matplotlib.use('TkAgg') #Make matplotlib compatible with Big Sur on mac
 
 def get_data(path, classes_label, classes, drop_columns):
     class_data = []
