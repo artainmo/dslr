@@ -1,4 +1,4 @@
-,answers
+Index,Hogwarts House
 0,Hufflepuff
 1,Ravenclaw
 2,Gryffindor
@@ -292,7 +292,7 @@
 290,Gryffindor
 291,Gryffindor
 292,Ravenclaw
-293,Hufflepuff
+293,Gryffindor
 294,Hufflepuff
 295,Gryffindor
 296,Slytherin
@@ -343,7 +343,7 @@
 341,Slytherin
 342,Ravenclaw
 343,Gryffindor
-344,Hufflepuff
+344,Ravenclaw
 345,Hufflepuff
 346,Hufflepuff
 347,Ravenclaw
@@ -398,4 +398,4 @@
 396,Hufflepuff
 397,Hufflepuff
 398,Ravenclaw
-399,Hufflepuff
+399,Ravenclaw
