@@ -14,6 +14,7 @@ from .handle_data import add_polynomial_features
 from .handle_data import minmax_normalization
 from .handle_data import data_spliter
 from .handle_data import descriminate_classes
+from .handle_data import categorical_data_to_numerical_data
 
 from .feedback import class_answers
 from .feedback import feedback

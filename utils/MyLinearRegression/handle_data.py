@@ -1,6 +1,7 @@
 import numpy as np
 from .stats import *
 import copy
+import math
 
 def NAN_to_median(values):
     no_nan = values[~np.isnan(values)]
@@ -9,7 +10,6 @@ def NAN_to_median(values):
     l = 0
     values[np.isnan(values)] = median_
     return values
-
 
 def add_polynomial_features(x, power):
     init = x
@@ -61,3 +61,17 @@ def descriminate_classes(expected_values, class_):
             y[i] = 0
         i += 1
     return y
+
+def what_category(data, categories):
+    for i, category in enumerate(categories, 1):
+        if data == category:
+            return i
+    print("ERROR: Missing category in categorical_data_to_numerical_data: " + str(data))
+    exit()
+
+#Creates bug in nan_to_median function for unknown reason
+def categorical_data_to_numerical_data(categories, column):
+    for i, data in enumerate(column):
+        column[i] = what_category(data, categories)
+    return column
+

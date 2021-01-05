@@ -14,7 +14,7 @@ if __name__=="__main__":
     answer_file = pd.DataFrame(answer, columns=["Hogwarts House"])
     answer_file.index.name = "Index"
     try:
-        answer_file.to_csv("datasets/houses.csv")
+        answer_file.to_csv("test/houses.csv")
     except:
         print("Error: argument file")
         exit()

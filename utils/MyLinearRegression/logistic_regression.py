@@ -116,9 +116,9 @@ class LogisticRegression():
         input_variables = add_intercept(input_variables)
         return sigmoid(input_variables.dot(self.theta))
 
-    def plot(self, x_values, expected_values):
-        predicted_values = self.predict_(x_values)
-        cost = self.cost_(predicted_values, expected_values)
+    def plot(self, x_values, expected_values):#Only works if x has one feature
+        predicted_values = self.predict(x_values)
+        cost = self.cost(predicted_values, expected_values)
         mpl.plot(x_values, predicted_values, color="orange")
         mpl.plot(x_values, expected_values, linestyle="",marker="o", color="blue")
         mpl.title("Cost: " + str(cost))
