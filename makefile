@@ -26,6 +26,9 @@ LR: train predict test
 
 clean:
 	rm -rf __pycache__
+	rm -rf ./utils/MyLinearRegression/__pycache__
+	rm -rf ./utils/MyStats/__pycache__
+	rm -rf ./utils/MyStats/stats/__pycache__
 
 #pip3 and python3 should already be installed, tested on Python 3.7.7
 env:
