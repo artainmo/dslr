@@ -2,3 +2,4 @@
 
 #Matplotlib config set to run on macos big sur / catalina / Mojave
 #Not possible without sudo permissions to download scikit-learn on VM ubuntu
+#Programmed on python3.7.7

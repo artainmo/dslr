@@ -36,5 +36,5 @@ def describe(path):
             rows = np.append(rows, np.array([iterate_data(numerical_data, func)]), axis=0)
         except:
             rows = np.array([iterate_data(numerical_data, func)])
-    # pd.set_option('display.max_columns', None) #Force Show all columns
+    pd.set_option('display.max_columns', None) #Force Show all columns
     print(pd.DataFrame(rows, index=row_labels, columns=column_labels))

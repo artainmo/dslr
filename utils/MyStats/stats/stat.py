@@ -48,6 +48,7 @@ def median(column):
     except:
         pass
     i = 0
+    column = np.sort(column);
     lenght = column.shape[0]
     if lenght % 2 != 0:
         lenght /= 2
@@ -79,6 +80,7 @@ def standard_derivation(column):
 def quartiles_25(column):
     if isinstance(column[0], (int, float)) == False:
         return np.nan
+    column = np.sort(column);
     lenght = column.shape[0]
     if lenght % 2 == 0:
         lenght //= 2
@@ -91,6 +93,7 @@ def quartiles_25(column):
 def quartiles_75(column):
     if isinstance(column[0], (int, float)) == False:
         return np.nan
+    column = np.sort(column);
     lenght = column.shape[0]
     lenght //= 2
     return median(column[lenght + 1:])
