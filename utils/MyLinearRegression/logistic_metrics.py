@@ -7,7 +7,7 @@ import pandas as pd
 def binary_set(predicted_values):
     i = 0
     while i < predicted_values.shape[0]:
-        if predicted_values[i] < 0.5:
+        if predicted_values[i] < 0.5: #To trade-off precision and recall 0.5 can become 0.7 for example if you want to avoid false positives for cancer
             predicted_values[i] = 0
         else:
             predicted_values[i] = 1
