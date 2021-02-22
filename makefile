@@ -26,7 +26,7 @@ LR: train predict test
 
 clean:
 	rm -rf __pycache__
-	rm -rf ./utils/MyLinearRegression/__pycache__
+	rm -rf ./utils/MyLogisticegression/__pycache__
 	rm -rf ./utils/MyStats/__pycache__
 	rm -rf ./utils/MyStats/stats/__pycache__
 

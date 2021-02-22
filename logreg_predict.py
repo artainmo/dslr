@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 import pandas as pd
-from utils.MyLinearRegression import *
+from utils.MyLogisticegression import *
 from logreg_train import get_xy_values
 
 if __name__=="__main__":

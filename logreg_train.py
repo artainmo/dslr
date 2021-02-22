@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import sys
-from utils.MyLinearRegression import *
+from utils.MyLogisticegression import *
 
 def get_xy_values(path, classes_label):
     try:
