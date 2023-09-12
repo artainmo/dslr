@@ -48,7 +48,7 @@ def minmax_normalization(x_values):
     return x_values.transpose()
 
 #The correct class needs to be represented numerically with 1 or "yes", while the wrong answer needs to represented as 0
-#When doing multiclassification, you need to let each class clasify against all the others
+#When doing multiclassification, you need to let each class go against all the others
 #and find the one with the highest probablity,
 #to do that you need to set the class you want as 1 or "yes" and all other classes as 0 or "no"
 def descriminate_classes(expected_values, class_):
