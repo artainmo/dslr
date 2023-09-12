@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 
 #Set to one or zero
-# < 0.5 -> 1
-# >= 0.5 -> 0
+# >= 0.5 -> 1
+# < 0.5 -> 0
 def binary_set(predicted_values):
     i = 0
     while i < predicted_values.shape[0]:
@@ -14,7 +14,7 @@ def binary_set(predicted_values):
         i += 1
     return predicted_values
 
-#There are two types of errors that occur in a classificatio algorithm
+#There are two types of errors that occur in a classification algorithm
 #False positives, or predicting "yes", while the expected answer was "no"
 #False negatives, or predicting "no", while the expected answer was "yes"
 #Returns false positves, false negatives, true positives and true negatives
