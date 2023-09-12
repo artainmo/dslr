@@ -43,7 +43,7 @@ def shuffle(x_values, expected_values):
 
 #Logistic regression is used as a classification algorithm it gives a binary answer, yes or no
 #Logistic regression uses similar techniques as linear regression, its predictions are probabilities between 0 and 1
-#If closer to 0 the answer is no and yes if closer to one yes
+#If closer to 0 the answer is no and yes if closer to 1
 class LogisticRegression():
     def __init__(self, type="batch", thetas=[0,0], alpha=0.0001, n_cycle=1000000, lambda_=0, b=18):
         if type == "batch" or type == "mini_batch" or type == "stochastic":
