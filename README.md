@@ -2,7 +2,7 @@
 
 42 school [subject](https://cdn.intra.42.fr/pdf/pdf/66359/en.subject.pdf).
 
-Read, visualize in multiple ways and clean a dataset to be used inside own logistic regression for classification in python with limited functions access. 
+Read, visualize in multiple ways and clean a dataset to be used inside own logistic regression algorithm for classification in python. 
 
 To learn more about the theory behind this project, read the comments inside the code.
 
